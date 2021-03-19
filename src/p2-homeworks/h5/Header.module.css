@@ -1,0 +1,48 @@
+.headerComp:hover {
+    margin-top: 60px;
+}
+
+.headerComp {
+    border-radius: 5px;
+    border: 0px solid red;
+    background-color: skyblue;
+    box-shadow: 3px 3px 10px #626262;
+    opacity: 0.86;
+    position: fixed;
+    z-index: 1200;
+    height: 100px;
+    top: -70px;
+    left: 50px;
+    transition-duration: 0.33s;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headerComp .container {
+    padding: 12px;
+    height: 80px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navLink {
+    margin: 0px 35px;
+    color: black;
+    text-decoration: none;
+}
+
+.active {
+    color: blue;
+    font-weight: 600;
+}

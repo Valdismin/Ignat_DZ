@@ -1,0 +1,14 @@
+.ClockWrapper{
+    display: flex;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image:url(https://cdn2.relax-fm.ru/proxy/vardata/modules/news/files/1/152/news_file_152_5c57ef93e624f.jpg?w=1020&h=680&t=1549266835);
+    background-size: 100% 100%;
+    color:white
+}

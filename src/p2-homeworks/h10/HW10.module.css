@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:white;
+    background-image: url(https://klv-oboi.by/img/gallery/23/thumbs/31695-730.jpg);
+    background-size: 100% 100%;
+}
