@@ -1,0 +1,26 @@
+.header {
+    margin: 15px 0px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px double black;
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+.span {
+    padding: 5px 60px;
+    background-color: rgb(40, 34, 47);
+    border: solid 2px white;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    margin-bottom: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}

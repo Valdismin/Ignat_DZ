@@ -1,7 +1,38 @@
 .someClass {
-
+    border: 3px solid black;
+    outline: none;
 }
 
 .error {
-    border: 1px solid red;
+    border: 3px solid red;
+    outline: none;
+}
+.errorText {
+    color: red;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px double black;
+    padding:100px 0px
+}
+.header{
+    margin-bottom: 10px;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px 0px
+}
+input {
+    margin: 0 10px 0 10px;
+    border-radius: 5px;
+}
+.inputPlusButton{
+    display: flex;
+    justify-content: center;
 }

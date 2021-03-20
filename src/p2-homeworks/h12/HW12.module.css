@@ -1,23 +1,49 @@
 .dark {
     background: dimgrey;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px double black ;
+    padding-top: 100px;
+    height: 100vh;
 }
 
 .dark-text {
     color: aliceblue;
+    padding-bottom: 15px;
 }
 
 .red {
-    background: lightcoral;
+    background: brown;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px double black ;
+    padding-top: 100px;
+    height: 100vh;
 }
 
 .red-text {
     color: aqua;
+    padding-bottom: 15px;
 }
 
 .some {
     background: lightgreen;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px double black ;
+    padding-top: 100px;
 }
 
 .some-text {
     color: darkslateblue;
+    padding-bottom: 15px;
 }

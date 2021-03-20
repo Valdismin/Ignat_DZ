@@ -1,13 +1,12 @@
+.header {
+    margin: 10px 0px;
+}
 .main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    color:black;
-    border-top: 1px double black ;
-}
-.header{
+    border-top: 1px double black;
     margin-bottom: 50px;
+    padding-top: 100px;
 }

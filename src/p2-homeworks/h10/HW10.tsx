@@ -20,7 +20,8 @@ function HW10() {
 
     return (
         <div className={s.main}>
-            homeworks 10
+
+            <div className={s.header}>homeworks 10</div>
 
             {loading
                 ? (

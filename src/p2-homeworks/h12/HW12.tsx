@@ -25,13 +25,14 @@ function HW12() {
 
     return (
         <div className={s[theme]}>
-            <hr/>
-            <span className={s[theme + '-text']}>
-                homeworks 12
-            </span>
-            <SuperSelect
+            <div className={s[theme + '-text']}>
+                 homeworks 12
+            </div>
+            <div>
+                <SuperSelect
                 onChangeOption={onChangeCallback}
                 options={themes}/>
+            </div>
         </div>
     );
 }

@@ -13,14 +13,17 @@ type GreetingPropsType = {
 const Greeting: React.FC<GreetingPropsType> = (
     {name, setNameCallback, addUser, error, totalUsers}
 ) => {
-    const inputClass = s.error; // need to fix with (?:)
+    const inputClass = s.error
 
     return (
-        <div>
-            <input value={name} onChange={setNameCallback} className={inputClass}/>
-            <span>{error}</span>
-            <button onClick={addUser}>add</button>
-            <span>{totalUsers}</span>
+        <div className={s.main2}>
+            <div className={s.inputPlusButton}>
+            <input value={name} onChange={setNameCallback} className={error ? inputClass : ""}/>
+            <button onClick={addUser}>Add User</button>
+            </div>
+            {error && <span className={s.errorText}>{error}</span>}
+            <br/>
+            <span>Добавлено пользователей:{totalUsers}</span>
         </div>
     );
 }

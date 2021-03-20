@@ -6,7 +6,9 @@ import SuperCheckbox from "./common/c3-SuperCheckbox/SuperCheckbox";
 
 function HW4() {
     const [text, setText] = useState<string>("");
-    const error = text ? "" : "error";
+    const error = text ? "" : "Write some text";
+    let red: boolean
+    text ? red = false : red = true
     const showAlert = () => {
         if (error) {
             alert("введите текст...");
@@ -19,9 +21,9 @@ function HW4() {
     const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked);
 
     return (
-        <div>
-            <hr/>
-            homeworks 4
+        <div className={s.main}>
+
+            <div className={s.header}>homeworks 4</div>
 
             <div className={s.column}>
                 {/*should work (должно работать)*/}
@@ -35,7 +37,7 @@ function HW4() {
 
                 {/*should work (должно работать)*/}
                 <SuperButton
-                    red // пропсу с булевым значением не обязательно указывать true
+                    red={red}
                     onClick={showAlert}
                 >
                     delete {/*// название кнопки попадёт в children*/}
@@ -50,7 +52,9 @@ function HW4() {
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
-                <SuperCheckbox checked={checked} onChange={testOnChange}/>
+                <SuperCheckbox checked={checked} onChange={testOnChange}>
+                    some text 2
+                </SuperCheckbox>
             </div>
 
 

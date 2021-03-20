@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import SuperButton from "../h4/common/c2-SuperButton/SuperButton"
 import s from "./Clock.module.css"
+import { Button } from "@material-ui/core";
 
 export function Clock() {
     const [timerId, setTimerId] = useState<number>(0);
@@ -31,11 +31,19 @@ export function Clock() {
     const stringDate = date.getDate() + '-' + (date.getMonth() + 1) + '-' + date.getFullYear();
 
     return (
-        <div>
+        <div className={s.main}>
+            <div className={s.header}>homeworks 9</div>
             <div
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
+                className={s.forDate}
             >
+                {show && (
+                    <div className={s.mySpan}>
+                        {stringDate}
+                    </div>
+                )}
+
                 <div className={s.ClockWrapper}>
                     <div>
                     <span>{twoDigits(date.getHours())}</span>
@@ -46,16 +54,10 @@ export function Clock() {
                     <div><span>{twoDigits(date.getSeconds())}</span></div>
                 </div>
             </div>
-
-            {show && (
-                <div>
-                    {stringDate}
-                </div>
-            )}
-
-            <SuperButton onClick={start}>start</SuperButton>
-            <SuperButton onClick={stop}>stop</SuperButton>
-
+            <div className={s.buttons}>
+            <Button onClick={start} color='primary' variant="contained">start</Button>
+            <Button onClick={stop} color='primary' variant="contained">stop</Button>
+            </div>
         </div>
     );
 }

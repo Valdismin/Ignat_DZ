@@ -17,7 +17,7 @@ type SetSomeThemeActionType = {
 }
 
 const initState = {
-    themes: 'some'
+    themes: 'dark'
 };
 
 export const themeReducer = (state:ThemeInitState = initState, action: ThemeActionTotalType): ThemeInitState => { // fix any

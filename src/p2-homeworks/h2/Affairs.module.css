@@ -1,10 +1,10 @@
 .afTable {
     border: 1px solid black;
-    border-right: 1px solid yellowgreen;
     margin: 20px;
 }
 .affairBlock {
     display: flex;
+    justify-content: center;
 }
 
 .affairId {
@@ -12,14 +12,31 @@
     border: 1px solid black;
 }
 .affairName {
-    width: 200px;
-    border: 1px solid green;
 }
 .affairPriority {
     width: 80px;
-    border: 1px solid yellowgreen;
+    border: 1px solid black;
 }
 .buttons {
     display: flex;
     justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px double black;
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+.header{
+    padding-bottom: 10px;
+}
+.affairs{
+    border: 1px double gray;
+    border-radius: 20px ;
+}
+.allAffairs{
+    padding:20px
 }

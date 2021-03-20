@@ -22,12 +22,10 @@ function HW11() {
 
     return (
         <div className={s.main}>
-
-
             <div className={s.HW11}>
                 <div className={s.header}>homeworks 11</div>
             <div className={s.SuperRange}>
-                <span>{value1}</span>
+
                 <SuperRange
                     onChangeRange={setMinValue}
                     value1={value1}/>

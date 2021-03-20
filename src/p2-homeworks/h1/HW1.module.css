@@ -3,11 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
     padding-top: 100px;
-    padding-bottom: 100px;
-    color:black;
-    border-top: 1px double black ;
 }
 .header{
-    margin-bottom: 50px;
+    padding-bottom:10px;
 }
