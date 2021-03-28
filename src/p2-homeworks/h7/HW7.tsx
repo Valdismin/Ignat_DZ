@@ -10,7 +10,6 @@ function HW7() {
 
     return (
         <div className={s.main}>
-           <div className={s.header}>homeworks 7</div>
             <div>
                 <SuperSelect
                     options={arr}

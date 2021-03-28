@@ -32,7 +32,6 @@ export function Clock() {
 
     return (
         <div className={s.main}>
-            <div className={s.header}>homeworks 9</div>
             <div
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}

@@ -21,7 +21,6 @@ function HW3() {
 
     return (
         <div className={s.main}>
-        <div className={s.header}>homeworks 3</div>
 
             <GreetingContainer users={users} addUserCallback={addUserCallback}/>
 

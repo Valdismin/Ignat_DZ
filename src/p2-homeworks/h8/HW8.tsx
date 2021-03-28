@@ -29,7 +29,6 @@ function HW8() {
 
     return (
         <div className={s.main}>
-            <div className={s.header}>homeworks 8</div>
             <div>{finalPeople}</div>
             <div className={s.buttons}>
                 <div ><SuperButton onClick={sortUpName}>Sort up name</SuperButton></div>

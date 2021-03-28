@@ -19,6 +19,7 @@ function Header() {
             <NavLink to={'/HW10'} className={s.navLink} activeClassName={s.active}> HW10 </NavLink>
             <NavLink to={'/HW11'} className={s.navLink} activeClassName={s.active}> HW11 </NavLink>
             <NavLink to={'/HW12'} className={s.navLink} activeClassName={s.active}> HW12 </NavLink>
+            <NavLink to={'/HW13'} className={s.navLink} activeClassName={s.active}> HW13 </NavLink>
                 </div>
             </div>
         </div>

@@ -42,7 +42,6 @@ function HW2() {
 
     return (
         <div className={s.main}>
-            <div className={s.header}>homeworks 2</div>
             <Affairs
                 data={filteredAffairs}
                 setFilter={setFilter}

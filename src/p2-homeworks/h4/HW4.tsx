@@ -23,8 +23,6 @@ function HW4() {
     return (
         <div className={s.main}>
 
-            <div className={s.header}>homeworks 4</div>
-
             <div className={s.column}>
                 {/*should work (должно работать)*/}
                 <SuperInputText
